@@ -1,0 +1,15 @@
+
+	body{ text-align: center; 
+	} 
+     .divs {	display:none;
+     			background:#F7F7F7;
+     			border:1px solid blue;
+     			width:300px;
+     			padding:5px;
+     			margin:auto;
+      }
+     a {color: black;text-decoration:none;}
+     a:hover, a:focus, a:active {color: red;}
+     ul	li{display : inline;
+     	list-style-type : none;}
+    
