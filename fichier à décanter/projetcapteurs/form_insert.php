@@ -15,7 +15,7 @@
     <form action="insert.php" method="post">
         <p>
         <label for="Localisation">Localisation</label> : <input type="text" name="Localisation" id="Localisation" /><br />
-        <label for="DateInstal">Date d'ajout</label> :  <input type="text" name="DateInstal" id="DateInstal" /><br />
+        <label for="DateInstal">Date d'ajout</label> :  <input type="date" name="DateInstal" id="DateInstal" /><br />
 
         <input type="submit" value="Envoyer" />
 	</p>
@@ -25,7 +25,7 @@
 // Connexion à la base de données
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=dangn;charset=utf8', 'root', '');
+	$bdd = new PDO('mysql:host=localhost;dbname=projetcapteur;charset=utf8', 'root', '');
 }
 catch(Exception $e)
 {

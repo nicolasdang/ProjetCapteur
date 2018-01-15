@@ -94,6 +94,12 @@
 	    	</SELECT>
 	        </p>
 
+			 <p>
+			       Veuillez choisir le type d'affichage :<br />
+			       <input type="radio" name="affichage" value="json" id="json" /> <label for="json">json</label>
+			       <input type="radio" name="affichage" value="normal" id="normal" /> <label for="normal">normal</label><br />
+			 </p> 
+
 	        <input type="submit" value="Envoyer" />
 
 	 	</form>
