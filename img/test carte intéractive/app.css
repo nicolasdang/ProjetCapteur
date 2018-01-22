@@ -1,21 +1,17 @@
 .mapimg{
+	background-image:url("plan_ESIEE.gif");
 
-	transform:rotate(90deg); 
 }
 
 .mapimg path{
 	fill: #a4ced2;
-	stroke : #000;
+	stroke:#FFF;
 	stroke-width :2px;
 }
 .mapimg path:hover{
-	fill:	#3538d2;
+	fill: #3538d2;
 	
 	}
-.mapliste{
-	float:right;
-	width:50%;
-}
 
 .mapliste a{
 	color:inherit;

@@ -1,6 +1,6 @@
 .mapimg{
 
-	transform:rotate(90deg); 
+	float: center;
 }
 
 .mapimg path{

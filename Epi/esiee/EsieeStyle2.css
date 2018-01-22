@@ -1,0 +1,67 @@
+body {
+color: purple;
+background-color: #d8da3d } 
+h3 {
+font-family: Helvetica, Geneva, Arial,
+SunSans-Regular, sans-serif }
+form#myform label { display:inline-block; width:100px; }
+form#myform input { display:inline-block; }
+form#myform input[type=submit] { color:#fff; background-color:green;}
+
+#divCompteur {
+text-align: center;
+color: red;
+}
+
+#Zone{margin: auto;
+-webkit-border-radius: 5px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+border : 4px ridge black;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color:red;
+}
+.capteur1, .capteur2 {
+	line-height: 1;
+	background-color= red;	
+}
+
+#date,  #temp , #hum, #lum, #batt{
+font-size: 19px;
+font-weight: bold;
+font-family: Gabriola, "Gentium Basic", Georgia;
+padding-left: 4px;
+background-color: lightgrey;
+
+}
+#date{
+color:black;
+border-left: 4px solid black;
+}
+
+#temp {
+color:red;
+border-left: 4px solid red;
+}
+
+#hum {
+color:blue;
+border-left: 4px solid blue;
+}
+
+#lum {
+color:orange;
+border-left: 4px solid orange;
+}
+
+#batt {
+color:green;
+border-left: 4px solid green;
+}
