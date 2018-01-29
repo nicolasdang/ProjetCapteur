@@ -2,7 +2,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" />
-	<link rel="stylesheet" href="stylemap.css" >
+	<link rel="stylesheet" href="css/stylemap.css" >
  	</head>
 	<body>
 		<div class="map" id="map">

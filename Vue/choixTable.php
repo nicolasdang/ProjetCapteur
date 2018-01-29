@@ -2,8 +2,9 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" href="css/stylemap.css" />
+	
+	<link rel="stylesheet" href="css/stylemap.css" />
+	<link rel="stylesheet" href="css/style.css" /> 
     <title>Choix Tables</title>
 
   </head>
@@ -30,11 +31,7 @@
 	require("form/divCapteur.php");
 ?>
     <script src="js/fonction.js" type="text/javascript"> </script>
-    <div id="graph">
-	<p> nous somme dans le graph</P>
-	
-	<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/350941/charts/2?bgcolor=%232ECEB9&color=%23d62020&dynamic=true&results=60&title=Field+humidite&type=line&xaxis=time"></iframe>
-</div>
+
+  <p> Si vous voulez voir la map intéractive, <a href="map.php">veuillez cliquez ici</a></p>
+   
 </div>	
-  </body>
-</html>
